@@ -1,3 +1,6 @@
+sed -i 's/ServerName localhost:80/ServerName localhost:$port/' /etc/httpd/conf/httpd.conf
+sed -i 's/Listen 80/Listen $port/' /etc/httpd/conf/httpd.conf
+
 cat << EOF > /var/www/html/config.php
 <?php
 return [
