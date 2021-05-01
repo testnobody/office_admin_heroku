@@ -3,10 +3,10 @@ return [
 	//全局账号相关配置
 	'accounts'=>[
 		[
-			'name'=>getenv("name"),
-			'client_id'=> getenv("client_id"),
-			'tenant_id'=> getenv("tenant_id"),
-			'client_secret'=> getenv("client_secret"),
+			'name'=>getenv("a_name"),
+			'client_id'=> getenv("b_client_id"),
+			'tenant_id'=> getenv("b_tenant_id"),
+			'client_secret'=> getenv("b_client_secret"),
 			'sku_ids'=>[
 				'a1学生'=>'314c4481-f395-4525-be8b-2ec4bb1e9d91',
 				'a1教职工'=>'94763226-9b3c-4e75-a931-5c89701abe66',
@@ -31,7 +31,7 @@ return [
 	//后台相关配置
 	'admin'=>[
 		'username'=>getenv("username"),
-		'password'=>getenv("password"),//自行输入密码 https://md5jiami.51240.com/  将32位 小写结果填入
+		'password'=>getenv("userpasswd"),//自行输入密码 https://md5jiami.51240.com/  将32位 小写结果填入
 		'invitation_code_num'=>'8',//随机生成的邀请码位数
 	],
 ];
