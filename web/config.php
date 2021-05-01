@@ -14,6 +14,7 @@ return [
 				'a1p教职工'=>'78e66a63-337a-4a9a-8959-41c6654dfb56'
 			],
 		],
+		getenv("moredomain")
 	],
 	
 	
