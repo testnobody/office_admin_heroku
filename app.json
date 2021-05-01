@@ -20,6 +20,10 @@
             "description": "client_secret",
             "value": "ox_vt_SJ-_xxxxxxx.mfG20gNIrpx2e_XR"
         },
+	"moredomain": {
+            "description": "测试中，此处勿输入",
+            "value": ""
+        },  
         "username": {
             "description": "后台管理员用户名，默认admin",
             "value": "admin"
