@@ -1,0 +1,31 @@
+{
+    "name": "officeadmin",
+    "description": "Deploy A1/A1P on Heroku.",
+    "keywords": ["officeA1P"],
+    "env": {
+        "count": {
+            "description": "count info",
+            "value": "[
+			'name'=>'A1英国偷渡',
+			'client_id'=>'165523e0-xxxx-xxxx-xxxx-b470e514a093',
+			'tenant_id'=>'8a4a847d-xxxx-xxxx-xxxx-c8a9bdd9ce6f',
+			'client_secret'=>'ox_vt_SJ-_xxxxxxx.mfG20gNIrpx2e_XR',
+			'sku_ids'=>[
+				'a1学生'=>'314c4481-f395-4525-be8b-2ec4bb1e9d91',
+				'a1教职工'=>'94763226-9b3c-4e75-a931-5c89701abe66'
+			],
+		],"
+        },
+        "username": {
+            "description": "admin username",
+            "value": "admin"
+        },
+        "passwd": {
+            "description": "https://md5jiami.51240.com/  将32位 小写结果填入",
+            "value": "21232f297a57a5a743894a0e4a801fc3"
+        }
+    },
+    "website": "https://github.com//testnobody/office_admin_heroku",
+    "repository": "https://github.com//testnobody/office_admin_heroku",
+    "stack": "container"
+}
