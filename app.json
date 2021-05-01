@@ -4,28 +4,28 @@
   "website": "https://github.com//testnobody/office_admin_heroku",
   "repository": "https://github.com//testnobody/office_admin_heroku",
   "env": {
-        "name": {
+        "a_name": {
             "description": "全局名字",
             "value": ""
         },
-	"client_id": {
+	"b_client_id": {
             "description": "client_id",
             "value": "165523e0-xxxx-xxxx-xxxx-b470e514a093"
         },
-	"tenant_id": {
+	"b_tenant_id": {
             "description": "tenant_id",
             "value": "8a4a847d-xxxx-xxxx-xxxx-c8a9bdd9ce6f"
         },
-	"client_secret": {
+	"b_client_secret": {
             "description": "client_secret",
             "value": "ox_vt_SJ-_xxxxxxx.mfG20gNIrpx2e_XR"
         },
         "username": {
-            "description": "admin username",
+            "description": "后台管理员用户名，默认admin",
             "value": "admin"
         },
-        "passwd": {
-            "description": "https://md5jiami.51240.com/  将32位小写结果填入",
+        "userpasswd": {
+            "description": "https://md5jiami.51240.com/  将32位小写结果填入,默认admin",
             "value": "21232f297a57a5a743894a0e4a801fc3"
         }
   }    
