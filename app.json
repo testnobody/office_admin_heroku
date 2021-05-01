@@ -1,9 +1,9 @@
 {
   "name": "office_admin",
   "description": "基于heroku的office管理应用",
-    "website": "https://github.com//testnobody/office_admin_heroku",
-    "repository": "https://github.com//testnobody/office_admin_heroku",
-    "env": {
+  "website": "https://github.com//testnobody/office_admin_heroku",
+  "repository": "https://github.com//testnobody/office_admin_heroku",
+  "env": {
         "name": {
             "description": "全局名字",
             "value": ""
@@ -28,7 +28,5 @@
             "description": "https://md5jiami.51240.com/  将32位小写结果填入",
             "value": "21232f297a57a5a743894a0e4a801fc3"
         }
-    },
-
-    
+  }    
 }
