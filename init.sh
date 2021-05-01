@@ -40,4 +40,3 @@ return [
 EOF
 
 
-/etc/init.d/httpd start
