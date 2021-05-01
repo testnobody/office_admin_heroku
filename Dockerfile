@@ -1,4 +1,4 @@
-FROM centos:7.0
+FROM centos:7
 RUN  yum install httpd php php-cli unzip php-gd php-mbstring -y
 WORKDIR  /var/www/html
 COPY ms365admin.zip /var/www/html/ms365admin.zip
